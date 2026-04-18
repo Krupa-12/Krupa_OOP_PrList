@@ -7,7 +7,7 @@ public class pr2{
         int result = 0;
         int index = 1;
         while(num > 0) {
-            int digit = num % 10;     
+            int digit = num % 10;    
             digit = (digit + 1) % 10;  
             result = result + digit * index;
             index = index * 10;
