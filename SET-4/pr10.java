@@ -4,8 +4,7 @@ class Vehicle {
     protected String Brand;
     protected String fuelType;
     Vehicle(String Vnumber, String Vbrand, String Ftype) {
-        vehicleNumber = Vnumber;
-        Brand = Vbrand;
+        vehicleNumber = Vnumber;        Brand = Vbrand;
         fuelType = Ftype;
     }
     void displayDetails() {
