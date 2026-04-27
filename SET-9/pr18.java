@@ -13,9 +13,9 @@ class Box<T> {
 public class Main {
     public static void main(String[] args) {
         Box<String> nameBox = new Box<>();
-        nameBox.addItem("scadric");
+        nameBox.addItem("Fredric");
         nameBox.addItem("luna");
-        nameBox.addItem("");
+        nameBox.addItem("Fenny");
         System.out.println("Names in Box:");
         nameBox.displayItems();
         Box<Integer> rollBox = new Box<>();
